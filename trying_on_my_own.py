@@ -22,4 +22,15 @@ def right_triangle_using_num(height):
 right_triangle_using_num(5)
 
 
-# ------------------------
+# ----------------------
+##--
+
+
+
+#ARALIN MO TO BTCH // DOWNWARD
+
+# def eme(height):
+#     for i in range(height, 0, -1):
+#         print([i])
+
+# eme(5)

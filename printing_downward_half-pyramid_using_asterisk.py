@@ -8,12 +8,13 @@
 
 
 # ----- FUNCTIONS -----
-def right_triangle_using_num(height):
+# - def function for downward half-pyramid
+def downward_half_pyramid(height):
     for i in range(height, 0, -1):
         print(("*" + " ") * ((i*1)-0), end= " ")
         print(" " * (height - i))
 
-# PSEUDO CODES
-# - Actual codes
-# - Calling the function
-right_triangle_using_num(5)
+# >>>>>>>>>> PSEUDO CODE <<<<<<<<<<
+# ----- ACTUAL CODES -----
+# - Caller of the def function/s
+downward_half_pyramid(5)
